@@ -6,10 +6,8 @@
   "keywords": ["webrtc", "opentok", "video", "video chat", "multiparty"],
   "env": {
     "TB_KEY": {
-      value: "45255272"
     }
     "TB_SECRET": {
-      value: "22718168b947c469d03fb7cc60fcf21765f99d15"
     }
   }
 }
