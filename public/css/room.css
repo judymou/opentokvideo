@@ -258,7 +258,7 @@ body {
   body #streams_container {
     position: absolute;
     top: 0px;
-    bottom: 42px;
+    bottom: 0px;
     right: 400px;
     left: 0px;
     text-align: center;
