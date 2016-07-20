@@ -16,20 +16,20 @@
 </div>
 
 <script id = "chattrBaseTpl" type = "text/x-handlebars-template">
-  <div id = 'chattr'> 
+  <div id = 'chattr'>
     <div id ='relative_wrapper'>
-      <div id='chat_header' class='chat-header' > 
-        <div><span></span><span></span><span></span></div> 
-        <h4 id='roomId'></h4> 
-      </div> 
-      <div class='inner-chat'> 
-        <p id = 'displayHelp'> Type /help for a list of commands 
-        <ul id='messages'> 
-        </ul> 
-      </div> 
-      <div class='chat-input-wrapper'> 
-        <input type='text' id='chatInput' placeholder= 'Write here...'  /> 
-      </div> 
+      <div id='chat_header' class='chat-header' >
+        <div><span></span><span></span><span></span></div>
+        <h4 id='roomId'></h4>
+      </div>
+      <div class='inner-chat'>
+        <p id = 'displayHelp'> Type /help for a list of commands
+        <ul id='messages'>
+        </ul>
+      </div>
+      <div class='chat-input-wrapper'>
+        <input type='text' id='chatInput' placeholder= 'Write here...'  />
+      </div>
     </div>
   </div>
 </script>
@@ -65,8 +65,8 @@
   {{/users}}
 </script>
 <script id="chattrHelpTpl" type="text/x-handlebars-template">
-  <p>Type <span>/name your_name</span> to change your display name</p> 
-  <p>Type <span>/list</span> to see a list of users in the room</p> 
+  <p>Type <span>/name your_name</span> to change your display name</p>
+  <p>Type <span>/list</span> to see a list of users in the room</p>
   <p>Type <span>/focus</span> to focus the room on yourself</p>
   <p>Type <span>/unfocus</span> to take focus away from any focussed people in the room</p>
   <p class='last'>Type <span>/help</span> to see a list of commands</p>
@@ -96,7 +96,9 @@
 <% include _vendor %>
 <link rel="stylesheet" href="/css/room.css" />
 <link rel="stylesheet" href="/css/OpenTokChattr.css" />
-<script src="//static.opentok.com/v2.2/js/opentok.min.js"></script>
+<!--<script src="//static.opentok.com/v2.2/js/opentok.min.js"></script>-->
+<script src="https://static.opentok.com/v2/js/opentok.min.js"></script>
+
 <script src="/vendors/handlebars.js" type="text/javascript"></script>
 <script src="/js/layoutContainer.js" type="text/javascript"></script>
 <script src="/vendors/jquery.event.ue.js" type="text/javascript"></script>
